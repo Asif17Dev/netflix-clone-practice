@@ -1,5 +1,7 @@
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/outline'
 import { useRef, useState } from 'react'
+import { useRecoilState } from 'recoil'
+import { modalState, movieState } from '../atoms/modalAtom'
 import { Movie } from '../typings'
 import Thumbnail from './Thumbnail'
 
